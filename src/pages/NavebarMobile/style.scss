@@ -1,0 +1,84 @@
+
+.ant-drawer-wrapper-body {
+    height: 100%;
+    overflow: auto;
+    background: radial-gradient(#90EE90, #b6bac5)!important;
+}
+
+.ant-drawer-header {
+    padding: 16px 24px;
+    color: rgba(0, 0, 0, 0.65);
+   background: radial-gradient(#90EE90, #b6bac5)!important;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+}
+
+.ant-drawer-body {
+    padding: 0px; 
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: normal;
+}
+
+.ant-layout-sider ant-layout-sider-dark{
+    width: 50px !important;
+}
+.ant-layout-sider-zero-width-trigger {
+   top: 37px;
+   padding: 2px;
+   font-size: 38px;
+   color: black;
+    background: radial-gradient(#90EE90, #b6bac5)!important;
+}
+.ant-menu {
+   width: 100%;
+}
+
+.ant-layout-sider {
+    width: 50px !important;
+    height: 100%;
+    min-width: 0;
+   background: radial-gradient(#90EE90, #b6bac5)!important;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.ant-layout-sider-children{
+    height: 100vh;
+}
+
+div.ant-menu-submenu-title{
+    background: radial-gradient(#90EE90, #b6bac5)!important;
+    border-radius:15px 15px 15px 15px;
+    border: 2px white solid;
+    color: black;
+    span{
+        color:black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+.ant-menu-submenu{
+    background: radial-gradient(#90EE90, #b6bac5)!important;
+    width: 100%;
+    padding: 5px 0 0 0;
+}
+
+li.ant-menu-item{
+    background: radial-gradient(#90EE90, #b6bac5)!important;
+    color: black;
+    border:1px solid white;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 10px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    align-items: center;    
+}
+
+
+Link{
+    color:red;
+}
