@@ -96,7 +96,7 @@ class SelectLote extends React.Component {
 
     async requestAPI() {
 
-        // const Dados = await GetRequest('api/categorias')
+        const Dados = await GetRequest('api/lot')
 
         // if (Dados.status === 402)
         //     return notification.open({
@@ -115,6 +115,7 @@ class SelectLote extends React.Component {
         //     return { ...data, title: data.DESCR_CATEGORIA, key: data.ID }
         // })
 
+        console.log("Dados", Dados)
         // const nivel3 = novosDados.filter((DATA) => DATA.NIVEL === 3)
         // const nivel4 = novosDados.filter((DATA) => DATA.NIVEL === 4)
         // const nivel5 = novosDados.filter((DATA) => DATA.NIVEL === 5)
@@ -176,7 +177,7 @@ class SelectLote extends React.Component {
 
     async ImportCategoryDefault() {
 
-        const novosDados = await GetRequest('api/categorias')
+        const novosDados = await GetRequest('/api/lot')
 
         if (novosDados.length > 3) {
             const args = {

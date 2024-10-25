@@ -10,9 +10,11 @@ function redirect() {
 
 async function GetRequest(rota) {
     try {
-        const endpoint = `${urlBackend}${rota}/${userID()}`
+        const endpoint = `${urlBackend}${rota}`
 
         const result = await axios.get(endpoint, config())
+
+        console.log('result', result)
         const dados = result.data
 
         return dados
